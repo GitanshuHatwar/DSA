@@ -14,3 +14,14 @@ int main(){
     }
     return 0;
 }
+/*
+output -
+ A
+BB
+CCC
+DDDD
+EEEEE
+FFFFFF
+GGGGGGG
+
+*/

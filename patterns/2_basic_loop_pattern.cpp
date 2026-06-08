@@ -14,3 +14,13 @@ int main(){
     }
     return 0;
 }
+
+/*
+output - 
+ABCDE
+ABCDE
+ABCDE
+ABCDE
+ABCDE
+
+*/
