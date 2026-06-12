@@ -24,6 +24,6 @@ int main()
     cin >> numb;
     for (int i = 0; i < numb; i++)
     {
-        cout << convert(i) <<endl;
+        cout << convert(i) << endl;
     }
 }
