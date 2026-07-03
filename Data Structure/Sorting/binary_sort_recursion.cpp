@@ -23,6 +23,7 @@ int recbinary(vector<int> &nums, int num, int start, int end)
     return -1;//not found
 }
 
+
 int binary(vector<int> &nums, int num)
 {
     int start = 0;
