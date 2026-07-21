@@ -30,7 +30,6 @@ int gcdOfOddEvenSums(int n)
 // Driver (not needed on LeetCode)
 int main()
 {
-
     cout << gcdOfOddEvenSums(4);
     return 0;
 }
