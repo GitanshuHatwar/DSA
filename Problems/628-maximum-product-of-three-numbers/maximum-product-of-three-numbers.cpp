@@ -4,9 +4,6 @@ public:
         int n = nums.size() - 1;
         sort(nums.begin(), nums.end());
 
-        int sum =  nums[n] * nums[n - 1] * nums[n - 2];
-        int base = nums[0] * nums[1] * nums[n];
-
-        return max(sum, base);
+        return max(nums[n] * nums[n - 1] * nums[n - 2], nums[0] * nums[1] * nums[n]);
     }
 };
