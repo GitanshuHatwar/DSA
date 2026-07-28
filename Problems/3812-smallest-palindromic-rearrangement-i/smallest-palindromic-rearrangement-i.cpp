@@ -9,7 +9,7 @@ public:
         sort(s.begin(), s.begin() + mid);
         
 
-        for(int i = 0 ; i < n/2 ;++i){
+        for(int i = 0 ; i < n/2 ;i++){
             s[n-1-i] = s[i];
         }
         return s;
