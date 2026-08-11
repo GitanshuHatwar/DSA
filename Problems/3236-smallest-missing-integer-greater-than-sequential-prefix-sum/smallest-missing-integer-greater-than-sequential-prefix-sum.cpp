@@ -2,12 +2,12 @@ class Solution {
 public:
     int missingInteger(vector<int>& nums) {
         int sum = nums[0];
-        bool flag = true;
+
         for (int i = 1; i < nums.size(); i++) {
-            if (nums[i] == nums[i - 1] + 1 && flag) {
+            if (nums[i] == nums[i - 1] + 1) {
                 sum += nums[i];
             } else {
-                flag = false;
+                break;
             }
         }
         while (find(nums.begin(), nums.end(), sum) != nums.end()) {
