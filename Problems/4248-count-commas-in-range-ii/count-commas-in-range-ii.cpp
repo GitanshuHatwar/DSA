@@ -8,7 +8,7 @@ public:
         }
         while(p<=n){
             res += n-p +1;
-            p  = p * 1000;
+            p  *= 1000;
         }
         return res;
     }
