@@ -5,7 +5,7 @@ public:
         int freq = 0;
         for (int i = 0 ; i < nums.size() ; i++){
             if (freq == 0) {
-                ans = nums[i];
+                ans = nums.at(i);
             }
            if(ans == nums.at(i)){
                 freq++;
