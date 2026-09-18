@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool divideArray(vector<int>& nums) {
-        map<int ,int> freq;
+        unordered_map<int ,int> freq;
         for(int i = 0 ; i < nums.size() ; i++){
             freq[nums[i]]++;
         }
