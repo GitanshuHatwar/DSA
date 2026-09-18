@@ -7,9 +7,9 @@ public:
         }
         for(auto j : freq){
             if(j.second %2 != 0){
-                return false;
+                return 0;
             }
         }
-        return true;
+        return 1;
     }
 };
