@@ -5,7 +5,7 @@ public:
         for (char ch : s) {
             freqA[ch - 'a']++;
         }
-        vector<int> freqB(26, 0);
+        vector<int> freqB(26);
         for (char chb : t) {
             freqB[chb - 'a']++;
         }
