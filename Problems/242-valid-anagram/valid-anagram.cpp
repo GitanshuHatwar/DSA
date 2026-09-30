@@ -13,9 +13,9 @@ public:
         
         for (int i = 0; i < 26; i++) {
             if (freqA[i] != freqB[i]) {
-                return false;
+                return 0;
             }
         }
-        return true;
+        return 1;
     }
 };
