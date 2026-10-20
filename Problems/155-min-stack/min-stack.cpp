@@ -9,11 +9,18 @@ public:
             st.push({value, minV});
         }
     }
+    
+    void pop() { 
+        st.pop(); 
+    }
 
-    void pop() { st.pop(); }
+    int top() { 
+    return st.top().first; 
+    }
 
-    int top() { return st.top().first; }
-    int getMin() { return st.top().second; }
+    int getMin() { 
+    return st.top().second; 
+    }
 };
 
 /**
