@@ -2,15 +2,14 @@ class Solution {
 public:
     string toLowerCase(string s) {
         string newS = "";
-        for(char c : s ){
-            if(c > 64 && c < 91){
+        for (char c : s) {
+            if (c >= 'A' && c <= 'Z') {
                 char nc = c + 32;
                 newS += nc;
-            }
-            else{
+            } else {
                 newS += c;
             }
         }
-        return  newS;
+        return newS;
     }
 };
