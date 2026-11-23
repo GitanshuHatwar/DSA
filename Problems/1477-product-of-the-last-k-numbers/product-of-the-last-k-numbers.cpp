@@ -10,6 +10,9 @@ public:
         int n = vec.size();
         for (int i = n - 1; i >= n - k; i--) {
             prod = prod * vec[i];
+            if(prod == 0){
+                return prod;
+            }
         }
         return prod;
     }
