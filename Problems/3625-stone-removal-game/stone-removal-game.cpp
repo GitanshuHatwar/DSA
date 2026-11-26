@@ -6,12 +6,12 @@ public:
         }
 
         int remove = 10;
-        int chance = 0;
+        bool ans = true;;
         // n = n - remove;
         // remove--;
         while (remove) {
             if (n < remove) {
-                if (chance % 2 == 0) {
+                if (ans == true) {
                     return false;
                 } else {
                     return true;
@@ -19,7 +19,8 @@ public:
             }
             n = n - remove;
             remove--;
-            chance++;
+           ans = ans ? false : true;
+
         }
         return true;
     }
