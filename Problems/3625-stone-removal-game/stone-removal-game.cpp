@@ -6,9 +6,9 @@ public:
         }
 
         int remove = 10;
-        int chance = 1;
-        n = n - remove;
-        remove--;
+        int chance = 0;
+        // n = n - remove;
+        // remove--;
         while (remove) {
             if (n < remove) {
                 if (chance % 2 == 0) {
